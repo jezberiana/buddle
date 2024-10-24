@@ -2,7 +2,7 @@
 
 Welcome to the **ProjectBuddle** React Native project!
 
-# Prerequisites
+## Prerequisites
 Make sure you have the following tools installed on your development machine:
 - Node.js (LTS version)
 - npm or yarn
@@ -10,40 +10,50 @@ Make sure you have the following tools installed on your development machine:
 - Android Studio or Xcode for iOS development
 - CocoaPods for iOS development (MacOS)
 
-# Getting Started
-## 1. Install Dependencies
+## Getting Started
+### 1. Install Dependencies
 Navigate to the root directory of the project and install the required dependencies:
+```bash
 npm install
+```
 or
+```bash
 yarn install
-
-## 2. Running on Android
+```
+### 2. Running on Android
 Ensure you have an Android emulator or a physical device connected. Then, run:
+```bash
 npx react-native run-android
-
-## 3. Running on iOS
+```
+### 3. Running on iOS
 For iOS, make sure CocoaPods is installed, and then run the following commands:
+```bash
 cd ios/
 pod install
 cd ..
 npx react-native run-ios
+```
 
-# Development Workflow
+## Development Workflow
 To start the React Native development server:
+```bash
 npm start
-
+```
 This will launch Metro, the bundler for React Native. It automatically updates the app in the simulator or device when code changes are saved.
 
-# Building for Production
+## Building for Production
 For Android:
+```bash
 cd android/
 ./gradlew assembleRelease
-
+```
 For iOS:
+```bash
 npx react-native run-ios --configuration Release
+```
 
-# Troubleshooting
-- Metro Bundler is not starting or port is already in use: Kill the process running on port 8081 or specify a new port.
-- Emulator not found: Make sure the emulator is installed and running, or connect a physical device.
+## Troubleshooting
+- **Metro Bundler is not starting or port is already in use:** Kill the process running on port 8081 or specify a new port.
+- **Emulator not found:** Make sure the emulator is installed and running, or connect a physical device.
 
-For more detailed documentation, visit the React Native Documentation.
+For more detailed documentation, visit the [React Native Documentation](https://reactnative.dev/docs/getting-started).
