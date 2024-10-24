@@ -14,7 +14,7 @@ Make sure you have the following tools installed on your development machine:
 ## 1. Install Dependencies
 Navigate to the root directory of the project and install the required dependencies:
 npm install
-# or
+or
 yarn install
 
 ## 2. Running on Android
