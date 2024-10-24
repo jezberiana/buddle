@@ -2,7 +2,6 @@
 
 Welcome to the **ProjectBuddle** React Native project!
 
-```bash
 # Prerequisites
 Make sure you have the following tools installed on your development machine:
 - Node.js (LTS version)
